@@ -59,6 +59,17 @@ padding:12px 25px;
 border-radius:30px;
 font-weight:bold;
 }
+.project-card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
 .skills span{
 display:inline-block;
 background:#e5e7eb;
@@ -135,11 +146,17 @@ I enjoy solving real-world problems using data, building dashboards, and analyzi
 
 <h2>Projects</h2>
 
-<div class="project" data-aos="zoom-in">
-<h3>Athlete Performance Analytics Dashboard</h3>
+<div class="project-card" data-aos="zoom-in">
+
+<h3>Athlete Performance Dashboard</h3>
+
 <p>
-Developed interactive Power BI dashboards to analyze athlete performance, fatigue levels, and injury risk. Built multiple visualizations to help coaches monitor player performance trends and optimize training decisions.
+Power BI dashboard analyzing athlete fatigue,
+performance trends, and injury risk.
 </p>
+
+<a href="#">View Project</a>
+
 </div>
 
 <div class="project" data-aos="zoom-in">
